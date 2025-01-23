@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/de-platzi-1/probando/probando.csproj": {}
+    "/mnt/c/Users/Alejandro/curso_platzi/de-platzi-1/probando/probando.csproj": {}
   },
   "projects": {
-    "/workspaces/de-platzi-1/probando/probando.csproj": {
+    "/mnt/c/Users/Alejandro/curso_platzi/de-platzi-1/probando/probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/de-platzi-1/probando/probando.csproj",
+        "projectUniqueName": "/mnt/c/Users/Alejandro/curso_platzi/de-platzi-1/probando/probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/de-platzi-1/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/de-platzi-1/probando/obj/",
+        "projectPath": "/mnt/c/Users/Alejandro/curso_platzi/de-platzi-1/probando/probando.csproj",
+        "packagesPath": "/home/len/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/Alejandro/curso_platzi/de-platzi-1/probando/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/len/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

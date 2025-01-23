@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = probando
-build_property.ProjectDir = /workspaces/de-platzi-1/probando/
+build_property.ProjectDir = /mnt/c/Users/Alejandro/curso_platzi/de-platzi-1/probando/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
